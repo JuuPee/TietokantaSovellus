@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">frisbeegolfBägi</string>
+    <string name="input">Lisää</string>
+    <string name="delete">poista</string>
+
+
+    <string name="anna_id">Anna Id :</string>
+    <string name="id_hint">ID</string>
+    <string name="anna_etunimi">Anna etunimi</string>
+    <string name="first_name_hint">First name </string>
+</resources>
