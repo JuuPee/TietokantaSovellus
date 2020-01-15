@@ -1,11 +1,20 @@
 <resources>
-    <string name="app_name">frisbeegolfBägi</string>
+    <string name="app_name">Tietokannanastin</string>
     <string name="input">Lisää</string>
     <string name="delete">poista</string>
 
 
     <string name="anna_id">Anna Id :</string>
     <string name="id_hint">ID</string>
-    <string name="anna_etunimi">Anna etunimi</string>
+    <string name="anna_etunimi">Anna etunimi :</string>
     <string name="first_name_hint">First name </string>
+    <string name="anna_sukunimi">Anna sukunimi :</string>
+    <string name="last_name_hint">Last name </string>
+    <string name="anna_tyopaikka">Anna työpaikka :</string>
+    <string name="job_hint">Job </string>
+    <string name="save">Tallenna</string>
+
+    <string name="jee"> jeeees </string>
+    <string name="jihuu"> jihuuu </string>
+    <string name="buttonDelete">Button</string>
 </resources>

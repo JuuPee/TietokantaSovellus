@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <CheckBox
+        android:id="@+id/jees"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/jee" />
+
+    <CheckBox
+        android:id="@+id/jihuuu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jihuu" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/buttonDelete"
+        tools:text="Poista" />
+</LinearLayout>

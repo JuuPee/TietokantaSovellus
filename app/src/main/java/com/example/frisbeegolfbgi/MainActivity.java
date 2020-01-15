@@ -30,7 +30,7 @@ import java.util.Arrays;
 public class MainActivity extends AppCompatActivity implements Serializable {
 
     ListView listView;
-    Button input, delete;
+    int limit = 3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,9 +38,6 @@ public class MainActivity extends AppCompatActivity implements Serializable {
         setContentView(R.layout.activity_main);
 
         listView = (ListView) findViewById(R.id.listView);
-        Button input = (Button) findViewById(R.id.input);
-        Button delete = (Button) findViewById(R.id.delete);
-
         downloadJSON("http://192.168.43.249/android_connect/api/management_service.php"); //EO LOCALHOSTIA!!!!
 
 
@@ -109,6 +106,7 @@ public class MainActivity extends AppCompatActivity implements Serializable {
 
         }
 
+
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, nameInfo);
         listView.setAdapter(arrayAdapter);
 
@@ -133,4 +131,12 @@ public class MainActivity extends AppCompatActivity implements Serializable {
         startActivity(intent);
     }
 
+    public void deletingData (View view) {
+        Intent intent = new Intent(this, checkBoxActivity.class);
+        startActivity(intent);
+
+    }
+    public int getCount() {
+        return limit;
+    }
 }

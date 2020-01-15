@@ -13,34 +13,114 @@ tools:context=".InputActivity" >
         tools:layout_editor_absoluteY="238dp">
 
         <TextView
-            android:id="@+id/idTextView"
+            android:id="@+id/textViewId"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/idHint"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginStart="31dp"
-            android:layout_marginTop="55dp"
-            android:layout_marginEnd="321dp"
-            android:layout_marginBottom="448dp"
-            android:text="@string/anna_id"
-            app:layout_constraintStart_toStartOf="parent" />
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="51dp"
+            android:text="@string/anna_id" />
 
         <EditText
             android:id="@+id/idHint"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="25dp"
-            android:layout_marginEnd="173dp"
-            android:layout_marginBottom="601dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="83dp"
+            android:layout_marginEnd="160dp"
             android:ems="10"
             android:hint="@string/id_hint"
-            android:inputType="textPersonName"
-            android:autofillHints="" />
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textViewFirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="144dp"
+            android:text="@string/anna_etunimi" />
+
+        <EditText
+            android:id="@+id/FirstNameHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="174dp"
+            android:layout_marginEnd="160dp"
+            android:ems="10"
+            android:hint="@string/first_name_hint"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textViewLastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="232dp"
+            android:text="@string/anna_sukunimi" />
+
+        <EditText
+            android:id="@+id/lastNameHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="264dp"
+            android:layout_marginEnd="161dp"
+            android:ems="10"
+            android:hint="@string/last_name_hint"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textViewJob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="323dp"
+            android:text="@string/anna_tyopaikka" />
+
+        <EditText
+            android:id="@+id/jobHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="357dp"
+            android:layout_marginEnd="161dp"
+            android:ems="10"
+            android:hint="@string/job_hint"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="151dp"
+            android:layout_marginBottom="57dp"
+            android:text="@string/save"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
 
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
